@@ -1,0 +1,608 @@
+/**{*/
+    /*margin: 0;*/
+    /*border: 0;*/
+    /*list-style-type: none;*/
+    /*font-family: 'Raleway', sans-serif;*/
+/*}*/
+/*header{*/
+    /*width: 1200px;*/
+    /*height: 544px;*/
+    /*background-color: beige;*/
+    /*position: relative;*/
+/*}*/
+/*.headerBlackBox{*/
+    /*width: 1200px;*/
+    /*height: 41px;*/
+
+    /*background-color: black;*/
+
+/*}*/
+/*.container{*/
+    /*width:1050px;*/
+    /*margin: 0 0 0 70px;*/
+/*}*/
+/*.logoUp{*/
+    /*font-size: 14px;*/
+    /*float: left;*/
+    /*color: white;*/
+    /*position: absolute;*/
+    /*top: 12px;*/
+    /*font-weight: 400;*/
+/*}*/
+/*.navUp ul{*/
+
+    /*display: inline-block;*/
+
+    /*vertical-align: center;*/
+
+/*}*/
+/*.navUp li{*/
+    /*float: right;*/
+    /*margin-right: 25px ;*/
+    /*margin-top: 25px;*/
+    /*font-size: 14px;*/
+    /*color: white;*/
+    /*}*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header, section, footer {
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #184947
+}
+
+span {
+    color: #24BAA0;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*nawigacja*/
+
+header {
+    background-color: black;
+    color: white;
+    height: 50px;
+    position: relative;
+}
+
+h1 a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    float: left;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.navHeader li {
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/*slider*/
+
+.slider {
+    height: 460px;
+}
+
+.gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,c9ccd3+100 */
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(201, 204, 211, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(201, 204, 211, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(201, 204, 211, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c9ccd3', GradientType=0);
+    /* IE6-9 */
+}
+
+#blackChair {
+    float: left;
+    padding: 60px 60px 60px 60px;
+    margin: 0;
+    height: 430px;
+    width: 550px;
+}
+
+.tekstBlackChair {
+    width: 400px;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h2 p {
+    font-size: 14px;
+    text-transform: none;
+    margin: 20px 0 20px 0;
+    line-height: 20px;
+}
+
+.button {
+    width: 270px;
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #24BAA0;
+    border-radius: 5px;
+    display: block;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.arrow {
+    font-size: 70px;
+    color: #24BAA0;
+    position: absolute;
+    top: 150px;
+}
+
+.arrow.left {
+    left: 0;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+.arrow.right {
+    right: 0;
+    margin-right: 100px;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+/*obrazki*/
+
+.column {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 15px;
+}
+
+h5 {
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.chairClair {
+    width: 300px;
+    height: 250px;
+    background-size: contain;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.chairClairText, .chairMargaritaText {
+    font-weight: bold;
+    margin-top: -80px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.chairMargarita {
+    width: 300px;
+    height: 250px;
+    background-size: contain;
+    padding-bottom: 25px;
+}
+
+.chairClair2::before, .chairMargarita2::before {
+    content: '';
+    width: 300px;
+    height: 60px;
+    background-color: rgba(241, 241, 241, .45);
+    position: absolute;
+    margin-top: -100px;
+}
+
+.chairClair2::after, .chairMargarita2::after {
+    content: '';
+    width: 135px;
+    height: 8px;
+    background-color: #00CEAE;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.findsAllInputs {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #E1E1E1;
+    padding: 20px;
+}
+
+.findsAllInputs::before {
+    content: '';
+    width: 135px;
+    height: 8px;
+    background-color: #00CEAE;
+    position: absolute;
+    margin-top: 20px;
+}
+
+h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.priceList::after {
+    content: '';
+    width: 290px;
+    height: 8px;
+    background-color: #00CEAE;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -85px;
+}
+
+.findsAllInputs p {
+    color: #949494;
+    font-size: 14px;
+}
+
+
+/*cennik*/
+
+#pricelist {
+    background-color: #F1F1F1;
+    height: 650px;
+}
+
+.column2 {
+    float: left;
+    width: 300px;
+    margin: 40px 15px 15px 15px;
+    border: 1px solid black;
+}
+
+h3 {
+    color: #727272;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 25px;
+}
+
+/*cennik środkowy*/
+
+.pricelistBox.standard {
+    border: 2px solid #00CEAE;
+    background-color: #00CEAE;
+}
+
+.circle.standard {
+    border: 2px solid #00CEAE;
+    background-color: #00CEAE;
+}
+
+.circle.standard::after {
+    background-color: white;
+}
+
+.standard h4 {
+    color: white;
+}
+
+.price1.standard {
+    border: 1px solid #00CEAE;
+    background-color: white;
+    color: #00CEAE;
+}
+
+.serviceList.standard li {
+    background-color: #F1F1F1;
+    color: #A7A7A7;
+}
+
+.serviceList.standard li:nth-of-type(2n+1) {
+    background-color: white;
+    color: #A7A7A7;
+}
+
+.pricelistButton.standard {
+    background-color: white;
+    margin-top: 90px;
+}
+
+.pricelistButton.standard a {
+    color: #00CEAE;
+}
+
+/* * * */
+
+.pricelistBox {
+    height: 500px;
+    border: 2px solid #C7C7C7;
+    background-color: #F9F9F9;
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    border: 2px solid #C7C7C7;
+    background-color: white;
+    position: absolute;
+    margin: -30px auto;
+    left: 0;
+    right: 0;
+}
+
+.circle::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 70%;
+    background-color: #C2C2C2;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h4 {
+    color: #00CEAE;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px auto 10px auto;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.price1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+    border: 1px solid #C7C7C7;
+    background-color: white;
+    color: #C2C2C2;
+    margin: 10px auto;
+}
+
+.price1, .price2, .price3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.price2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+}
+
+sup {
+    font-size: 14px;
+}
+
+.price3 {
+    margin: 65px auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.serviceList {
+    text-align: center;
+    margin: 160px auto 0 auto;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.serviceList li {
+    background-color: #F1F1F1;
+    color: #8D8D8D;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+.serviceList li:nth-of-type(2n+1) {
+    background-color: #E4E4E4;
+    color: #A6A6A6;
+}
+
+.pricelistButton {
+    width: 120px;
+    height: 35px;
+    background-color: #00CEAE;
+    text-align: center;
+    border-radius: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.pricelistButton a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 17px;
+    margin: auto 17px;
+}
+
+.pricelistButton.basic {
+    margin-top: 140px;
+}
+
+.pricelistButton.advance {
+    margin-top: 40px;
+}
+
+/*formularz*/
+
+.contact::after {
+    content: '';
+    width: 290px;
+    height: 8px;
+    background-color: #00CEAE;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -100px;
+}
+
+form {
+    height: 300px;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+.form1, .form2 {
+    display: inline-block;
+}
+
+.form1 {
+    float: left;
+    width: 550px;
+}
+
+.nameForm, .emailForm {
+    height: 60px;
+}
+
+.textareaForm {
+    height: 170px;
+}
+
+.nameForm, .emailForm, .textareaForm {
+    font-size: 26px;
+    font-weight: 200;
+    width: 600px;
+    margin: 10px;
+    border: 1px solid #00CEAE;
+    padding: 5px;
+}
+
+.formOk {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00CEAE;
+    padding: 2px;
+}
+
+.form2 {
+    float: left;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.form2Li {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form2 li {
+    font-size: 20px;
+    font-weight: 200;
+    color: #A6A6A6;
+    margin: 5px;
+}
+
+.buttonForm {
+    width: 270px;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #24BAA0;
+    border-radius: 5px;
+    display: block;
+    font-size: 24px;
+    border: none;
+}
+
+.buttonForm:hover {
+    background-color: #184947
+}
+
+footer {
+    height: 100px;
+    margin-top: 50px;
+}
+
+.copyright {
+    color: #A7A7A7;
+    width: 450px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+.social {
+    float: right;
+}
+
+.social p {
+    font-size: 20px;
+    color: #A7A7A7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    float: right;
+    margin-left: 60px;
+}
+
+.on {
+    font-weight: bold;
+    color: #A7A7A7;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
